@@ -15,7 +15,7 @@ const AboutMe = () => {
                     <h4 className="underline underline-offset-8 "><span className="text-xl font-semibold">Email</span>: masum.nextu@gmail.com</h4>
                     <h4 className="underline underline-offset-8 "><span className="text-xl font-semibold">Age</span>: 23</h4>
                     <h4><span className="text-xl font-semibold">From</span>: Chattogram, Bangladesh</h4>
-                    <h4 className="btn btn-success px-10 font-bold rounded-3xl w-3/5">Download Resume</h4>
+                    <a href="resumeofmasum.pdf" download={true} className="btn btn-success px-10 font-bold rounded-3xl w-3/5">Download Resume</a>
                 </div>
             </div>
         </div>
