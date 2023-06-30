@@ -1,0 +1,42 @@
+[
+    {
+        "skillName": "HTML",
+        "range": 90
+    },
+    {
+        "skillName": "CSS",
+        "range": 85
+    },
+    {
+        "skillName": "Bootstrap",
+        "range": 80
+    },
+    {
+        "skillName": "Tailwind",
+        "range": 78
+    },
+    {
+        "skillName": "React JS",
+        "range": 75
+    },
+    {
+        "skillName": "Node JS",
+        "range": 40
+    },
+    {
+        "skillName": "JavaScript",
+        "range": 78
+    },
+    {
+        "skillName": "Web Design",
+        "range": 60
+    },
+    {
+        "skillName": "MongoDB",
+        "range": 50
+    },
+    {
+        "skillName": "ExpressJS",
+        "range": 60
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "academicYear": "2023 - 2023",
+        "degreeName": "Complete Web Development with Jhonker Mahbub",
+        "universityName": "Programming Hero",
+        "courseDetails": "An advanced program focusing on JavaScript, React and creative expression."
+    },
+    {   
+        "id":2,
+        "academicYear": "2019 - 2023",
+        "degreeName": "Bachelor of Business Studies",
+        "universityName": "National University",
+        "courseDetails": "A comprehensive program covering various topics in business, economy, and research."
+    }
+]
