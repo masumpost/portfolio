@@ -1,8 +1,16 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Img = ({ work }) => {
     const { img, git, live } = work;
+
+    useEffect(()=>{
+        AOS.init();
+    },[])
     return (
-        <div>
-            <div className="card w-full h-60 md:w-96 bg-base-100 shadow-lg image-full">
+        <div className="hover:animate-pulse">
+            <div className="card w-full h-60 md:w-96 bg-base-100 shadow-lg image-full" data-aos="zoom-in" data-aos-duration='2000'>
                 <figure><img src={img} alt="project" /></figure>
                 <div className="card-body">
                     <div className="flex gap-3 justify-center mt-20">

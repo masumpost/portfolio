@@ -2,13 +2,19 @@ import { useEffect, useState } from "react";
 import Card from "./Card";
 import Range from "./Range";
 import { FaDownload } from "react-icons/fa";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Resume = () => {
+
 
     const [education, setEducation] = useState([]);
     const [experience, setExperience] = useState([]);
     const [skills, setSkills] = useState([]);
 
+    useEffect(()=>{
+        AOS.init();
+    },[])
 
     useEffect(() => {
         fetch('education.json')
@@ -33,7 +39,7 @@ const Resume = () => {
             <h1 className="text-3xl font-bold text-center underline underline-offset-8 py-10">Resume</h1>
             <div>
                 <div className="md:flex">
-                    <div className="w-full md:w-1/2">
+                    <div className="w-full md:w-1/2" data-aos="fade-right" data-aos-duration='2000'>
                         <h3 className="text-2xl font-bold md:ms-3">My Education</h3>
                         <div className="gap-3">
                             {
@@ -44,7 +50,7 @@ const Resume = () => {
                             }
                         </div>
                     </div>
-                    <div className="w-full md:w-1/2">
+                    <div className="w-full md:w-1/2" data-aos="fade-left" data-aos-duration='2000'>
                         <h3 className="text-2xl font-bold md:ms-3">My Experience</h3>
                         <div className="ms-3">
                             {

@@ -28,7 +28,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-ghost normal-case text-3xl font-bold">Masum</a>
+                    <a className="btn btn-ghost normal-case text-3xl font-bold">Ma<span className="animate-spin">s</span>um</a>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return (
-        <div className="bg-black text-white py-10 px-4">
+        <div className="bg-black text-white py-10 px-3 md:px-5">
             <h2 className="text-3xl font-bold text-center py-10 underline underline-offset-8">Know About Me</h2>
 
             <div className="md:flex items-center gap-4">
