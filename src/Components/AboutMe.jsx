@@ -18,6 +18,31 @@ const AboutMe = () => {
                     <a href="resumeofmasum.pdf" download={true} className="btn btn-success px-10 font-bold rounded-3xl w-3/5">Download Resume</a>
                 </div>
             </div>
+            <div className="my-4 md:my-10">
+                <div className=" stat justify-around grid-cols-2 md:grid-cols-4 shadow bg-transparent text-white text-center">
+
+                    <div className="">
+                        <div className="stat-value text-4xl md:text-6xl">1 +</div>
+                        <div className="stat-desc text-white my-3 text-xl font-semibold">Year Experience</div>
+                    </div>
+
+                    <div className="">
+                        <div className="stat-value text-4xl md:text-6xl">25 +</div>
+                        <div className="stat-desc text-white my-3 text-xl font-semibold">Projects Done</div>
+                    </div>
+
+                    <div className="">
+                        <div className="stat-value text-4xl md:text-6xl">10 +</div>
+                        <div className="stat-desc text-white my-3 text-xl font-semibold">Happy Clients</div>
+                    </div>
+
+                    <div className="">
+                        <div className="stat-value text-4xl md:text-6xl">10 +</div>
+                        <div className="stat-desc text-white my-3 text-xl font-semibold">Happy Clients</div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     );
 };
